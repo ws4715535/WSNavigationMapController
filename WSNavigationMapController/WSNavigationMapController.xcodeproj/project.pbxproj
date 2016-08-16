@@ -14,6 +14,7 @@
 		54BE09C11D62F8E400DBF82D /* WSNavigationMapController.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 54BE09BF1D62F8E400DBF82D /* WSNavigationMapController.xcdatamodeld */; };
 		54BE09C31D62F8E400DBF82D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54BE09C21D62F8E400DBF82D /* Assets.xcassets */; };
 		54BE09C61D62F8E400DBF82D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54BE09C41D62F8E400DBF82D /* LaunchScreen.storyboard */; };
+		54BE09D01D62FAD800DBF82D /* WSNavigationMapController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BE09CF1D62FAD800DBF82D /* WSNavigationMapController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		54BE09C21D62F8E400DBF82D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54BE09C51D62F8E400DBF82D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54BE09C71D62F8E400DBF82D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54BE09CE1D62FAD800DBF82D /* WSNavigationMapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSNavigationMapController.h; sourceTree = "<group>"; };
+		54BE09CF1D62FAD800DBF82D /* WSNavigationMapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSNavigationMapController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,7 @@
 		54BE09B21D62F8E400DBF82D /* WSNavigationMapController */ = {
 			isa = PBXGroup;
 			children = (
+				54BE09CD1D62F96200DBF82D /* NavigationMapController */,
 				54BE09B61D62F8E400DBF82D /* AppDelegate.h */,
 				54BE09B71D62F8E400DBF82D /* AppDelegate.m */,
 				54BE09B91D62F8E400DBF82D /* ViewController.h */,
@@ -80,6 +84,15 @@
 				54BE09B41D62F8E400DBF82D /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		54BE09CD1D62F96200DBF82D /* NavigationMapController */ = {
+			isa = PBXGroup;
+			children = (
+				54BE09CE1D62FAD800DBF82D /* WSNavigationMapController.h */,
+				54BE09CF1D62FAD800DBF82D /* WSNavigationMapController.m */,
+			);
+			name = NavigationMapController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				54BE09BB1D62F8E400DBF82D /* ViewController.m in Sources */,
+				54BE09D01D62FAD800DBF82D /* WSNavigationMapController.m in Sources */,
 				54BE09B81D62F8E400DBF82D /* AppDelegate.m in Sources */,
 				54BE09C11D62F8E400DBF82D /* WSNavigationMapController.xcdatamodeld in Sources */,
 				54BE09B51D62F8E400DBF82D /* main.m in Sources */,
